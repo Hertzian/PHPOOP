@@ -41,3 +41,5 @@ echo $user2->nombre;
 echo '<br>';
 
 echo $user2->sayHello();
+echo '<br>';
+echo $user2->sayHello();
