@@ -1,0 +1,5 @@
+# NO Muestra indexes de folders
+Options -Indexes
+
+# Muestra Indexes de folders
+#Options +Indexes
