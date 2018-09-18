@@ -23,9 +23,15 @@ class Pages extends Controller{
 
     public function about(){
 
-        // echo 'This is about ' . $id;
-        $this->view('pages/about');
+        //forma 2
+        $data = [
+            'title' => 'About Us'
+        ];
+        
+        $this->view('pages/about', $data);
 
+        // $this->view('pages/index', ['title' => 'Welcome']);//forma 1
+        
     }
 
 }

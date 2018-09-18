@@ -10,7 +10,8 @@
 define('APPROOT', dirname(dirname(__FILE__)));
 
 // URL Root
-define('URLROOT', 'http://localhost/PHPOOP/FrameworkMVC');//poner atencion con el "/" al final, se puede dejar o se puede quitar
+// define('URLROOT', 'http://localhost/PHPOOP/FrameworkMVC');//poner atencion con el "/" al final, se puede dejar o se puede quitar
+define('URLROOT', 'http://phpmvc.test');//poner atencion con el "/" al final, se puede dejar o se puede quitar
 
 // nombre de sitio
 define('SITENAME', 'TutofruttiMVC');
