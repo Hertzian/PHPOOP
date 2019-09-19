@@ -1,5 +1,12 @@
 <?php
 
+// DB params
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASS', null);
+define('DB_NAME', 'lalomvc');
+
+
 // App Root, que es el root actual
 // echo __FILE__;//magic constant, muestra la ruta del archivo donde esta declarada
 // echo '<br>';
